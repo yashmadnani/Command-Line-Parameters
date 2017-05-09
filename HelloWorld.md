@@ -10,6 +10,6 @@ System.Console.WriteLine( "Hello, World! ");
    }
 }
 
-Hello, World!
+OUTPUT : Hello, World!
 
 ```
