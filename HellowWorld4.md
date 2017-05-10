@@ -11,7 +11,7 @@ public class Hello4
 	}
 }
 
-Hello, World!
+OUTPUT : Hello, World!
 
 
 ```
