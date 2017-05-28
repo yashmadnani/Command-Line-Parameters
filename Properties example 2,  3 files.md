@@ -122,8 +122,8 @@ public class TestClass
               new rectangle(4, 5, "Rectangle #1")
           };
           
-          System.Console.WriteLine( "Shapes Cpllection");
-          foreach(Shaper s in shapes)
+          System.Console.WriteLine( "Shapes Collection");
+          foreach(Shape s in shapes)
           {
               System.Console.WrtiteLine(s);
           }
@@ -139,7 +139,6 @@ Shapes Collection
 Square #1 Area = 25.00
 Circle #1 Area = 28.27
 Rectangle #1 Area = 20.00
-
 
 ```
 
