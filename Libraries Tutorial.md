@@ -83,7 +83,7 @@ class FuntionClient
             "The Digit count for String[{0}] is [{1}]", args[i],
             //Invoke the NumberOfDigits static method in the 
             // DigitCount class:
-            DigitCount.NumberOfDigit(args[i])));
+            DigitCount.NumberOfDigit(args[i]));
             Console.WriteLine(
               "The Factorial for [{0}] is [{1}]",
               num,
