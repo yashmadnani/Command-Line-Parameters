@@ -108,5 +108,38 @@ public class Square: Shape
 
 //*******************************************************************************************************
 
+//shapetest.cs
+//compile with : / reference: abstractshare.dll;shapes.dll
+
+public class TestClass
+{
+    public static void Main()
+    {
+        shape[] shapes =
+          {
+              new square(5, "Square #1"),
+              new Circle(3, "Circle #1"),
+              new rectangle(4, 5, "Rectangle #1")
+          };
+          
+          System.Console.WriteLine( "Shapes Cpllection");
+          foreach(Shaper s in shapes)
+          {
+              System.Console.WrtiteLine(s);
+          }
+      }
+  }
+  
+  
+//*******************************************************************************************************
+
+OUTPUT
+
+Shapes Collection
+Square #1 Area = 25.00
+Circle #1 Area = 28.27
+Rectangle #1 Area = 20.00
+
+
 ```
 
