@@ -19,6 +19,12 @@ class TestClass
     {
         s.x = 5;
     }
+     public static void classtaker(TheClass c)
+    {
+        c.x = 5;
+    }
+
+    
     public static void Main()
     {
           TheStruct a = new TheStruct();
