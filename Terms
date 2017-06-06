@@ -1,0 +1,4 @@
+TERMS 
+
+1. A thread is something like a virtualized CPU. If an application crashes or hits an in nite loop, only the application’s process is affected.
+
