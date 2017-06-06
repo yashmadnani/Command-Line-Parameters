@@ -2,3 +2,4 @@ TERMS
 
 1. A thread is something like a virtualized CPU. If an application crashes or hits an in nite loop, only the application’s process is affected.
 
+2. Synchronization is the mechanism of ensuring that two threads don’t execute a speci c portion of your program at the same time. In the case of a console appli- cation, this means that no two threads can write data to the screen at the exact same time.
